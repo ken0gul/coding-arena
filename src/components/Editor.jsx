@@ -116,7 +116,7 @@ const Editor = ({ setOutput }) => {
     const code = editor.getValue();
 
     try {
-      const response = await fetch("http://coding-arena-api-production.up.railway.app/execute", {
+      const response = await fetch("https://coding-arena-api-production.up.railway.app/execute", {
         method: "POST",
         mode:"cors",
         headers: {
