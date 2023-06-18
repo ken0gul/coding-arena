@@ -23,6 +23,8 @@
     "eject": "react-scripts eject",
     "postinstall": "patch-package"
   },
+
+  "proxy":"https://coding-arena-api-production.up.railway.app",
   "eslintConfig": {
     "extends": [
       "react-app",
