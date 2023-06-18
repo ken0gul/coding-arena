@@ -118,7 +118,6 @@ const Editor = ({ setOutput }) => {
     try {
       const response = await fetch("https://coding-arena-api-production.up.railway.app/execute", {
         method: "POST",
-        mode:"cors",
         headers: {
           "Content-Type": "application/json",
         },
