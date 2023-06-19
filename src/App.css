@@ -13,6 +13,12 @@ main {
   color: beige;
 }
 
+@media (max-width: 960px) {
+  main {
+    flex-direction: column;
+  }
+}
+
 .output {
   flex: 45%;
 }
