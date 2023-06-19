@@ -13,7 +13,7 @@ main {
   color: beige;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1160px) {
   main {
     flex-direction: column;
   }
